@@ -1,0 +1,9 @@
+version: '3.1'
+
+services:
+    fcc:
+        image: httpd:latest
+        ports:
+          - 8080:80
+        volumes:
+          - ./personal_portfolio:/usr/local/apache2/htdocs
