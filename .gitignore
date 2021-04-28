@@ -1,2 +1,11 @@
-*
-!.gitignore
+README.md
+c/
+cpp/
+javascript/
+node/
+python/
+scratch/
+sh/
+tags
+tags.sh
+typescript/
