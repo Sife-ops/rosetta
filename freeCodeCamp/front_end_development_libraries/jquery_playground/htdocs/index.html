@@ -2,7 +2,31 @@
 <html lang=\"en\">
     <head>
         <meta charset=\"UTF-8\"/>
-        <title>jquery playground</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>
+        <script>
+          $(document).ready(function() {
+            // exercises
+            // $("button").addClass("animated bounce");
+            // $(".well").addClass("animated shake");
+            // $("#target3").addClass("animated fadeOut");
+            // $("button").addClass("animated bounce");
+            // $(".well").addClass("animated shake");
+            // $("#target3").addClass("animated fadeOut");
+            // $("button").removeClass("btn-default");
+            $("#target1").css("color", "red");
+            $("#target1").prop("disabled", true);
+            $("#target4").remove();
+            $("#target2").appendTo("#right-well");
+            $("#target5").clone().appendTo("#left-well");
+            $("#target1").parent().css("background-color", "red");
+            $("#right-well").children().css("color", "orange");
+            $("#left-well").children().css("color", "green");
+            $(".target:nth-child(2)").addClass("animated bounce");
+            $(".target:even").addClass("animated shake");
+
+          });
+        </script>
+        <title>jquery test playground</title>
     </head>
     <body>
 

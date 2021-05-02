@@ -1,9 +1,0 @@
-version: '3.1'
-
-services:
-    scratch:
-        image: httpd:latest
-        ports:
-          - 8080:80
-        volumes:
-          - ./htdocs:/usr/local/apache2/htdocs
