@@ -1,10 +1,12 @@
 *docker-compose.yml
+*a.out
+
 README.md
 c/
 cpp/
-javascript/
 node/
 python/
+react/
 scratch/
 tags
 tags.sh
