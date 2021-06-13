@@ -3,12 +3,6 @@
 #include <time.h>
 #include <errno.h>
 
-typedef struct node {
-    int x;
-    int y;
-    struct node *prev;
-} node;
-
 typedef enum {
     FALSE_ = 0,
     TRUE_,
@@ -26,6 +20,13 @@ typedef enum {
     SNAKE,
     APPLE,
 } text;
+
+typedef struct node node;
+struct node {
+    int x;
+    int y;
+    struct node *prev;
+};
 
 int inSnake(int, int);
 int msleep (long);
